@@ -41,15 +41,21 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="Assets\Isometric Tilemap\Miniature Farm\License.txt" />
     <None Include="Assets\Characters\Tilesheet (Backgrounds).txt" />
     <None Include="Assets\Characters\License.txt" />
+    <None Include="Assets\Isometric Tilemap\Isometric Blocks\Spritesheet\voxelTiles_sheet.xml" />
+    <None Include="Assets\Isometric Tilemap\Isometric Blocks\Spritesheet\abstractTiles_sheet.xml" />
     <None Include="Assets\TopDown Tilemap\Pixel Shmup\License.txt" />
+    <None Include="Assets\Isometric Tilemap\Isometric Blocks\Spritesheet\platformerTiles_sheet.xml" />
     <None Include="Assets\Characters\Tilesheet (Characters).txt" />
     <None Include="Assets\TopDown Tilemap\Pixel Shmup\Tilesheet (Tiles).txt" />
+    <None Include="Assets\Isometric Tilemap\Isometric Blocks\Spritesheet\allTiles_sheet.xml" />
     <None Include="Assets\TopDown Tilemap\Pixel Shmup\Tilesheet (Ships).txt" />
     <None Include="Assets\Sideways Tilemap\Pixel Platformer Farm\Tilesheet.txt" />
     <None Include="Assets\Sideways Tilemap\Pixel Platformer Farm\License.txt" />
     <None Include="Assets\Characters\Tilesheet (Tiles).txt" />
+    <None Include="Assets\Isometric Tilemap\Isometric Blocks\License.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.34f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

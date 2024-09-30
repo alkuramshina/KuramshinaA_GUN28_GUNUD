@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,7 +103,1015 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: platformerTiles_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1ce4c6b70f944429d6a406fcaffa29
+      internalID: -460451426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 896
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49ccc935cfa13647b07e6ada85d35e6
+      internalID: 1219618986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 896
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c934e2c9ffd44c44483556b917f8c609
+      internalID: -77341018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 896
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495a90cc59aed3744bb3474cfc66fc5c
+      internalID: 1630344346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 896
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5251322aca75c46951b60d75a0db07
+      internalID: 741039151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 896
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c825097dfd15745acc1d4db228e167
+      internalID: -140560872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 896
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7876e978d77a2494da34b1f5023eca49
+      internalID: 2002643655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 767
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c730656ffd403b54cab3421033422e34
+      internalID: -438956500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 767
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e86fd965f105b5479985c0c057312da
+      internalID: 1455079323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 767
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ee6932358a7fb4fa926d0560f851af
+      internalID: -399481812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 767
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2988ba3af578d4bb55c5c271c7a103
+      internalID: -1866006673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 767
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf45db6ba23ae74a97ebf79cc99084a
+      internalID: -1381252913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 767
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244637c8619c11045948029621bb3807
+      internalID: 904913447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 767
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e582676bb774d44fa3c2e53a4230dfc
+      internalID: 52296695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 638
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd369976eb69dfa42a75201d1db2e235
+      internalID: 1256329982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 638
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f762db220f888459ac23ded55c0756
+      internalID: -147602495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 638
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d49119ec8286c488fa449a50851a38
+      internalID: 2054529443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 638
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb611bd416d1f943b545dd62be2fa1e
+      internalID: 2086517914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 638
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df876858d375404cab360c4d48f7574
+      internalID: -1726105203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 638
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3316b7e219b4144a86c8b35333fe1b8
+      internalID: -18400081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 638
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1282ea700cfe449a6a9f96bed95a6e
+      internalID: 2090203120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 509
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8940e67be958442aede1adb87c0190
+      internalID: -1375796549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 509
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ce7eece1924964c9de14f1db552549
+      internalID: 731387628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 509
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cd13255494e70479db9b7747a99543
+      internalID: -1392469580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 509
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac154d298969212419112f72c74cd0fb
+      internalID: -376162725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 509
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1d096b210181f4db597ecdaf3888ea
+      internalID: 906726054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 509
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baace1ffb2c71274f8042cd31bdf131d
+      internalID: 2091549518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 509
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f909cc8cb34ae4a459c2b41f0a5eeb5e
+      internalID: 1237824345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 380
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295d87df889e3f24ca810597f4b80910
+      internalID: -1779885935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 380
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8f85a9c1c81ad45a08a54a040a2add
+      internalID: 660273274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 380
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68676af087438549a268215b6d35c8a
+      internalID: -608197216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 380
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884a1c7b5eaea244090f5a51a782c429
+      internalID: 445036191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 380
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56b34cc169fdc24d85edfd6687daacf
+      internalID: -827785838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 380
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02a83b5a2641f0459a9b52d6fe0b6e8
+      internalID: 116923538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 380
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44eee041724fc6c4a96f08c64c9a1b5c
+      internalID: 1707918093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 251
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca37e95b3e75abb4484290f312a1337b
+      internalID: 892576842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 251
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e842fc2eca363146868ed50b0afaa7c
+      internalID: -1431728100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 251
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ea4063db1d5514da1710137833ddca
+      internalID: 1044117507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 251
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4a756940eb49b4aa16e1554263d58d
+      internalID: -1514014753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 251
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9014269e8c615e43b0766ff692f36b9
+      internalID: 1308053312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 251
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3405844430122f4e8110c365f0068e1
+      internalID: 1998408120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 251
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e50495e1aca3424cb3786c8e93f9ba9
+      internalID: -1366207874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 122
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33aefdd70b70d64e8991d3371a3fcf2
+      internalID: -1754019659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 122
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a538723db9640444a655eee3c31cabb
+      internalID: -1132078297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 122
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ada0c641791a247b848ebfb6f04846
+      internalID: -1853209420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 122
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bc3f10d34516d4b87bd91392ffce06
+      internalID: -1611345132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 122
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763d76a6178978c4d9d48a1bfe0c2fef
+      internalID: -2132634820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformerTiles_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 122
+        width: 111
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09a5952856abff499cca0ab4020493d
+      internalID: 1305126282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +1122,55 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      platformerTiles_sheet_0: -460451426
+      platformerTiles_sheet_1: 1219618986
+      platformerTiles_sheet_10: -1866006673
+      platformerTiles_sheet_11: -1381252913
+      platformerTiles_sheet_12: 904913447
+      platformerTiles_sheet_13: 52296695
+      platformerTiles_sheet_14: 1256329982
+      platformerTiles_sheet_15: -147602495
+      platformerTiles_sheet_16: 2054529443
+      platformerTiles_sheet_17: 2086517914
+      platformerTiles_sheet_18: -1726105203
+      platformerTiles_sheet_19: -18400081
+      platformerTiles_sheet_2: -77341018
+      platformerTiles_sheet_20: 2090203120
+      platformerTiles_sheet_21: -1375796549
+      platformerTiles_sheet_22: 731387628
+      platformerTiles_sheet_23: -1392469580
+      platformerTiles_sheet_24: -376162725
+      platformerTiles_sheet_25: 906726054
+      platformerTiles_sheet_26: 2091549518
+      platformerTiles_sheet_27: 1237824345
+      platformerTiles_sheet_28: -1779885935
+      platformerTiles_sheet_29: 660273274
+      platformerTiles_sheet_3: 1630344346
+      platformerTiles_sheet_30: -608197216
+      platformerTiles_sheet_31: 445036191
+      platformerTiles_sheet_32: -827785838
+      platformerTiles_sheet_33: 116923538
+      platformerTiles_sheet_34: 1707918093
+      platformerTiles_sheet_35: 892576842
+      platformerTiles_sheet_36: -1431728100
+      platformerTiles_sheet_37: 1044117507
+      platformerTiles_sheet_38: -1514014753
+      platformerTiles_sheet_39: 1308053312
+      platformerTiles_sheet_4: 741039151
+      platformerTiles_sheet_40: 1998408120
+      platformerTiles_sheet_41: -1366207874
+      platformerTiles_sheet_42: -1754019659
+      platformerTiles_sheet_43: -1132078297
+      platformerTiles_sheet_44: -1853209420
+      platformerTiles_sheet_45: -1611345132
+      platformerTiles_sheet_46: -2132634820
+      platformerTiles_sheet_47: 1305126282
+      platformerTiles_sheet_5: -140560872
+      platformerTiles_sheet_6: 2002643655
+      platformerTiles_sheet_7: -438956500
+      platformerTiles_sheet_8: 1455079323
+      platformerTiles_sheet_9: -399481812
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

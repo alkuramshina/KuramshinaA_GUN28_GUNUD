@@ -41,7 +41,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\PlayerIsoMover.cs" />
     <Compile Include="Assets\Scripts\PlayerMover.cs" />
     <None Include="Assets\Isometric Tilemap\Miniature Farm\License.txt" />
     <None Include="Assets\Characters\Tilesheet (Backgrounds).txt" />

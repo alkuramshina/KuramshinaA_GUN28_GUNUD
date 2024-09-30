@@ -5,29 +5,24 @@ public class PlayerMover : MonoBehaviour
 {
     [SerializeField] protected float speed;
     
-    protected Rigidbody2D Rigidbody;
+    private Rigidbody2D _rigidbody;
 
-    protected float Horizontal;
-    protected float Vertical;
+    private float _horizontal;
+    private float _vertical;
 
     private void Start()
     {
-        Rigidbody = GetComponent<Rigidbody2D>();
+        _rigidbody = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
     {
-        Horizontal = Input.GetAxis("Horizontal");
-        Vertical = Input.GetAxis("Vertical");
+        _horizontal = Input.GetAxis("Horizontal");
+        _vertical = Input.GetAxis("Vertical");
     }
     
     private void FixedUpdate()
     {
-        Move();
-    }
-
-    protected virtual void Move()
-    {
-        Rigidbody.velocity = new Vector2(Horizontal * speed, Vertical * speed);
+        _rigidbody.velocity = new Vector2(_horizontal * speed, _vertical * speed);
     }
 }

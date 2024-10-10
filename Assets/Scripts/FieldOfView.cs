@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class FieldOfView : MonoBehaviour
 {
+    [SerializeField] private Transform pointOfView;
     [SerializeField] private float radius;
     [SerializeField, Range(0, 360)] private float angle;
 
@@ -18,6 +20,7 @@ public class FieldOfView : MonoBehaviour
     public float Radius => radius;
     public float Angle => angle;
     public Vector3 PlayerPosition => player.transform.position;
+    public Vector3 PointOfView => pointOfView.position;
 
     private void Start()
     {

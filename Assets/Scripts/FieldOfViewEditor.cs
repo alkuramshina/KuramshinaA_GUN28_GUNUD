@@ -7,22 +7,21 @@ public class FieldOfViewEditor : Editor
     private void OnSceneGUI()
     {
         var fov = (FieldOfView)target;
-        var currentPosition = fov.transform.position;
         
         Handles.color = Color.white;
-        Handles.DrawWireArc(currentPosition, Vector3.up, Vector3.forward, 360, fov.Radius);
+        Handles.DrawWireArc(fov.PointOfView, Vector3.up, Vector3.forward, 360, fov.Radius);
 
         var viewAngleLeft = DirectionFromAngle(fov.transform.eulerAngles.y, -fov.Angle / 2);
         var viewAngleRight = DirectionFromAngle(fov.transform.eulerAngles.y, fov.Angle / 2);
         
         Handles.color = Color.yellow;
-        Handles.DrawLine(currentPosition, currentPosition + viewAngleLeft * fov.Radius);
-        Handles.DrawLine(currentPosition, currentPosition + viewAngleRight * fov.Radius);
+        Handles.DrawLine(fov.PointOfView, fov.PointOfView + viewAngleLeft * fov.Radius);
+        Handles.DrawLine(fov.PointOfView, fov.PointOfView + viewAngleRight * fov.Radius);
         
         if (fov.CanSeePlayer)
         {
             Handles.color = Color.green;
-            Handles.DrawLine(currentPosition, fov.PlayerPosition);
+            Handles.DrawLine(fov.PointOfView, fov.PlayerPosition);
         }
     }
 
